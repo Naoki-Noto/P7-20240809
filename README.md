@@ -27,7 +27,7 @@ data: Code for generating pre-training labels.
 
 ==============================================================================
 
-Environment/
+Environment: Environments for performing each code are stored in this directory./
 
 For performing machine learning (Deep2.yml): Python (3.10.13) was used as a language, and used packages were deepchem (2.8.0), numpy (1.26.3), pandas (2.2.2), scikit-learn (1.5.0), torch (2.2.0+cu121), torch_geometric (2.4.0), and tensorflow (2.15.0).
 
@@ -40,53 +40,19 @@ For constructing databases (ReL.yml): Python (3.10.14) was used as a language, a
 
 Machine learning/
 
-• Conventional_ML
+• Benchmark_Deep2: Code and results for benchmark models, including Random forest (RDKit descriptor/Mordred) and GCN models.
 
-Lasso: Code and results for Lasso regression.
+• DL_Deep2: Code and results of domain adaptation.
 
-RF: Code and results for random forest.
+BertzCT/BertzCT_add: Code and results for constructing pre-trained models based on BertzCT and fine-tuning.
 
-RF_control: Code and results for control experiments (random forest).
+Kappa2/Kappa2_add: Code and results for constructing pre-trained models based on Kappa2 and fine-tuning.
 
-SVM: Code and results for support-vector machine.
+TargetScreening_yield_s/TargetScreening_yield_l_cl: Code and results for constructing pre-trained models based on various pre-training labels and fine-tuning. In TargetScreening_yield_s Database B was utilized as well as Database E for TargetScreening_yield_l_cl.
 
-XGB: Code and results for XGBoost.
+==============================================================================
 
-• DA1: Code and main results of domain adaptation.
-
-• DA2: Code and results of domain adaptation when using 10 data points as a training set.
-
-• DA3_(C4_12): Code and results of domain adaptation for alkene photoisomerization.
-
-Alkene_isomerization_8OPSs: Code and results for predictions in alkene isomerization by domain adaptation using 8 OPSs as the training set.
-
-Alkene_isomerization_DA: Code and results for predictions in alkene isomerization by domain adaptation.
-
-Alkene_isomerization_RF: Code and results for predictions in alkene isomerization by random forest.
-
-Alkene_isomerization_badcase: Code and results for predictions in alkene isomerization by domain adaptation using the source domain with photocatalytic activity trends less similar to the target domain.
-
-Correlation_analysis: Code and results for the correlation analysis.
-
-Learning_curve: Code and results for generating learning curves to investigate generalization performance.
-
-• DA4_(C9_10_15): Code and results of investigations into the limitation and applicability of domain adaptation.
-
-CN: Code and results for domain adaptation in CN.
-
-CO_a: Code and results for domain adaptation in CO_a.
-
-CO_b: Code and results for domain adaptation in CO_b.
-
-CO_c: Code and results for domain adaptation in CO_c.
-
-CO_d: Code and results for domain adaptation in CO_d.
-
-CO_e: Code and results for domain adaptation in CO_e.
-
-CS: Code and results for domain adaptation in CS.
-
-SD_data_exclusion: Code and results for investigations into the influence of excluding 30 OPSs from the source domain.
+Supporting information/
 
 • DA_SI_(C3_5_13): Code and results of domain adaptation for supporting information.
 
@@ -109,10 +75,3 @@ XGB: Code and results for XGBoost.
 • Make_descriptors: Code for generating descriptors.
 
 • Paired_t-test: Code and results of paired t-test.
-
-
-==============================================================================
-
-Supporting information/
-
-
