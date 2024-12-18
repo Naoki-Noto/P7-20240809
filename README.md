@@ -3,10 +3,8 @@
 
 Note: Databases A, B, C, D, and E are denoted as 'Human', 'Random', 'AI2', 'AI', and 'AI+Human' respectively.
 
-Note2: Since the pkl files were too large to upload to GitHub, they are stored at the following URL:
+Note2: Since the pkl files were too large to upload to GitHub, they are stored at the following URL (data_AI: Database D, data_AI+Human: Database E, data_AI2: Database C, data_Human: Database A, data_Random: Database B, data_zinc_25286/data_zinc_50572: ZINC-based databases):
 https://drive.google.com/drive/folders/1pUC8uVw9CC82m1UwBKBRTU9kUn5yyIWq?usp=sharing
-
-(data_AI: Database D, data_AI+Human: Database E, data_AI2: Database C, data_Human: Database A, data_Random: Database B, data_zinc_25286/data_zinc_50572: ZINC-based databases)
 
 Note3: The environment used is indicated at the end of each directory name.
 
