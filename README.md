@@ -54,24 +54,10 @@ TargetScreening_yield_s/TargetScreening_yield_l_cl: Code and results for constru
 
 Supporting information/
 
-• DA_SI_(C3_5_13): Code and results of domain adaptation for supporting information.
+• MolGeneration_SI_ReL/MolGeneration_SI2_ReL: Code for comparing molecular properties derived from policy and reward settings.
 
-Comparison_method: Code and results for comparison of DA methods.
+• Removing_duplicate: Code and results for investigating the effect of removing duplicates in Databases B and E on predictive performance.
 
-Increasing_training_data: Code and results for the test with larger training datasets.
+• Time_attack_ReL: Code for measuring the time required to construct Database B.
 
-Top3_and_bottom3: Code and results for domain adaptation using source domains selected based on correlation coefficients among OPSs in the training data.
-
-• Data_volume_(C8): Code and results of investigations into the effect of increasing the data volume (but not domain adaptation).
-
-Lasso: Code and results for Lasso regression.
-
-RF: Code and results for random forest.
-
-SVM: Code and results for support-vector machine.
-
-XGB: Code and results for XGBoost.
-
-• Make_descriptors: Code for generating descriptors.
-
-• Paired_t-test: Code and results of paired t-test.
+• ZINC_database: Code and results when using ZINC-derived databases.
