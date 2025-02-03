@@ -1,5 +1,5 @@
 # P7-20240809
-===============================================================================
+===========================================================================
 
 Note: Databases A, B, C, D, and E are denoted as 'Human', 'Random', 'AI2', 'AI', and 'AI+Human', respectively.
 
@@ -8,7 +8,7 @@ https://drive.google.com/drive/folders/1pUC8uVw9CC82m1UwBKBRTU9kUn5yyIWq?usp=sha
 
 Note3: The environment used is indicated at the end of each directory name.
 
-===============================================================================
+===========================================================================
 
 # Table of Contents
 Database construction/
@@ -25,7 +25,7 @@ data: Code for generating pre-training labels.
 
 • pkl_files_Deep2: Code for generating pkl files.
 
-==============================================================================
+==========================================================================
 
 Environment: Environments for performing each code are stored in this directory./
 
@@ -38,7 +38,7 @@ For generating pre-training targets (adapt1.yml): Python (3.7.16) was used as a 
 For constructing databases (ReL.yml): Python (3.10.14) was used as a language, and used packages were matplotlib (1.2.0), numpy (1.26.4), pandas (2.2.2), rdkit (2023.9.6), seaborn (0.13.2), scikit-learn (1.4.2), and umap-learn (0.5.6).
 
 
-==============================================================================
+==========================================================================
 
 Machine learning/
 
@@ -54,7 +54,7 @@ TargetScreening_yield_s/TargetScreening_yield_l_cl: Code and results for constru
 
 • reactiont5_reactiont5: Code and results of ReactionT5.
 
-==============================================================================
+==========================================================================
 
 Supporting information/
 
