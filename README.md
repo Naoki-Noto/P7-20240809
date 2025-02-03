@@ -44,13 +44,15 @@ Machine learning/
 
 • Benchmark_Deep2: Code and results for benchmark models, including Random forest (RDKit descriptor/Mordred) and GCN models.
 
-• DL_Deep2: Code and results of domain adaptation.
+• DL_Deep2: Code and results of deep learning studies.
 
 BertzCT/BertzCT_add: Code and results for constructing pre-trained models based on BertzCT and fine-tuning.
 
 Kappa2/Kappa2_add: Code and results for constructing pre-trained models based on Kappa2 and fine-tuning.
 
 TargetScreening_yield_s/TargetScreening_yield_l_cl: Code and results for constructing pre-trained models based on various pre-training labels and fine-tuning. In TargetScreening_yield_s Database B was utilized as well as Database E for TargetScreening_yield_l_cl.
+
+• reactiont5_reactiont5: Code and results of ReactionT5.
 
 ==============================================================================
 
