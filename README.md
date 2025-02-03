@@ -15,7 +15,7 @@ Database construction/
 
 • Database_properties_ReL: Code and results for comparing chemical spaces and molecular weight distributions.
 
-• Make_database_adapt1: XYZ files after geometry optimization.
+• Make_database_adapt1: Code and results for making databases.
 
 HGB: Code for SHAP-based analysis based on HGB models.
 
