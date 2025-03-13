@@ -13,17 +13,17 @@ Note3: The environment used is indicated at the end of each directory name.
 # Table of Contents
 Database construction/
 
-• Database_properties_ReL: Code and results for comparing chemical spaces and molecular weight distributions.
+- Database_properties_ReL: Code and results for comparing chemical spaces and molecular weight distributions.
 
-• Make_database_adapt1: Code and results for making databases.
+- Make_database_adapt1: Code and results for making databases.
 
-   - HGB: Code for SHAP-based analysis based on HGB models.
+  • HGB: Code for SHAP-based analysis based on HGB models.
 
-   - data: Code for generating pre-training labels.
+  • data: Code for generating pre-training labels.
 
-• MolGeneration_ReL: Code for reinforcement learning-based molecular generators.
+- MolGeneration_ReL: Code for reinforcement learning-based molecular generators.
 
-• pkl_files_Deep2: Code for generating pkl files.
+- pkl_files_Deep2: Code for generating pkl files.
 
 ==========================================================================
 
