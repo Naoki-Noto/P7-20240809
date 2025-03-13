@@ -23,6 +23,8 @@ Database construction/
 
 - MolGeneration_ReL: Code for reinforcement learning-based molecular generators.
 
+- Pubchem_ReL: Code and results for checking whether molecules are registered in PubChem.
+
 - pkl_files_Deep2: Code for generating pkl files.
 
 ==========================================================================
@@ -42,26 +44,26 @@ For constructing databases (ReL.yml): Python (3.10.14) was used as a language, a
 
 Machine learning/
 
-• Benchmark_Deep2: Code and results for benchmark models, including Random forest (RDKit descriptor/Mordred) and GCN models.
+- Benchmark_Deep2: Code and results for benchmark models, including Random forest (RDKit descriptor/Mordred) and GCN models.
 
-• DL_Deep2: Code and results of deep learning studies.
+- DL_Deep2: Code and results of deep learning studies.
 
-BertzCT/BertzCT_add: Code and results for constructing pre-trained models based on BertzCT and fine-tuning.
+  • BertzCT/BertzCT_add: Code and results for constructing pre-trained models based on BertzCT and fine-tuning.
 
-Kappa2/Kappa2_add: Code and results for constructing pre-trained models based on Kappa2 and fine-tuning.
+  • Kappa2/Kappa2_add: Code and results for constructing pre-trained models based on Kappa2 and fine-tuning.
 
-TargetScreening_yield_s/TargetScreening_yield_l_cl: Code and results for constructing pre-trained models based on various pre-training labels and fine-tuning. In TargetScreening_yield_s Database B was utilized as well as Database E for TargetScreening_yield_l_cl.
+  • TargetScreening_yield_s/TargetScreening_yield_l_cl: Code and results for constructing pre-trained models based on various pre-training labels and fine-tuning. In TargetScreening_yield_s Database B was utilized as well as Database E for TargetScreening_yield_l_cl.
 
-• reactiont5_reactiont5: Code and results of ReactionT5.
+- reactiont5_reactiont5: Code and results of ReactionT5.
 
 ==========================================================================
 
 Supporting information/
 
-• MolGeneration_SI_ReL/MolGeneration_SI2_ReL: Code for comparing molecular properties derived from policy and reward settings.
+- MolGeneration_SI_ReL/MolGeneration_SI2_ReL: Code for comparing molecular properties derived from policy and reward settings.
 
-• Removing_duplicate: Code and results for investigating the effect of removing duplicates in Databases B and E on predictive performance.
+- Removing_duplicate: Code and results for investigating the effect of removing duplicates in Databases B and E on predictive performance.
 
-• Time_attack_ReL: Code for measuring the time required to construct Database B.
+- Time_attack_ReL: Code for measuring the time required to construct Database B.
 
-• ZINC_database: Code and results when using ZINC-derived databases.
+- ZINC_database: Code and results when using ZINC-derived databases.
