@@ -17,9 +17,9 @@ Database construction/
 
 • Make_database_adapt1: Code and results for making databases.
 
-HGB: Code for SHAP-based analysis based on HGB models.
+   HGB: Code for SHAP-based analysis based on HGB models.
 
-data: Code for generating pre-training labels.
+   data: Code for generating pre-training labels.
 
 • MolGeneration_ReL: Code for reinforcement learning-based molecular generators.
 
