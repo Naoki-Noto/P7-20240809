@@ -31,13 +31,13 @@ Database construction/
 
 Environment: Environments for performing each code are stored in this directory./
 
-For performing machine learning (Deep2.yml): Python (3.10.13) was used as a language, and used packages were deepchem (2.8.0), numpy (1.26.3), pandas (2.2.2), scikit-learn (1.5.0), torch (2.2.0+cu121), torch_geometric (2.4.0), and tensorflow (2.15.0).
+For performing machine learning (Deep2.yml): Python (3.10.13) was used as a language, and used packages were deepchem (2.8.0), matplotlib (3.9.0), numpy (1.26.3), pandas (2.2.2), scikit-learn (1.5.0), tensorflow (2.15.0), torch (2.2.0+cu121), and torch_geometric (2.4.0).
 
-For using ReactionT5 (reactiont5.yml): Python (3.10.16) was used as a language, and used packages were numpy (2.2.1), pandas (2.2.3), scikit-learn (1.6.0), torch (2.5.1+cu121), transformers (4.47.1), and rdkit (2024.3.6).
+For using ReactionT5 (reactiont5.yml): Python (3.10.16) was used as a language, and used packages were numpy (2.2.1), pandas (2.2.3), rdkit (2024.3.6), scikit-learn (1.6.0), torch (2.5.1+cu121), and transformers (4.47.1).
 
-For generating pre-training targets (adapt1.yml): Python (3.7.16) was used as a language, and used packages were numpy (1.21.6), matplotlib (3.5.3), mordred (1.2.0), pandas (1.3.5), rdkit (2023.3.2), seaborn (0.12.2), shap (0.42.1), and scikit-learn (1.0.2).
+For generating pre-training targets (adapt1.yml): Python (3.7.16) was used as a language, and used packages were matplotlib (3.5.3), mordred (1.2.0), numpy (1.21.6), pandas (1.3.5), rdkit (2023.3.2), scikit-learn (1.0.2), seaborn (0.12.2), and shap (0.42.1).
 
-For constructing databases (ReL.yml): Python (3.10.14) was used as a language, and used packages were matplotlib (1.2.0), numpy (1.26.4), pandas (2.2.2), rdkit (2023.9.6), seaborn (0.13.2), scikit-learn (1.4.2), and umap-learn (0.5.6).
+For constructing databases (ReL.yml): Python (3.10.14) was used as a language, and used packages were matplotlib (3.9.0), numpy (1.26.4), pandas (2.2.2), pubchempy(1.0.4), rdkit (2023.9.6), seaborn (0.13.2), scikit-learn (1.4.2), and umap-learn (0.5.6).
 
 
 ==========================================================================
