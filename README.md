@@ -60,7 +60,7 @@ Supporting information/
 
 - MolGeneration_SI_ReL: Code for comparing molecular properties derived from policy and reward settings.
 
-- Molecule_selection_ReL: Code for randomly selecting 10 molecules from Databases A, B, C, and D.
+- Molecule_selection_ReL: Code and results for randomly selecting 10 molecules from Databases A, B, C, and D.
 
 - Removing_duplicate: Code and results for investigating the effect of removing duplicates in Databases B and E on predictive performance.
 
