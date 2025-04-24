@@ -50,8 +50,6 @@ Machine learning/
 
   • BertzCT/BertzCT_add: Code and results for constructing pre-trained models based on BertzCT and fine-tuning.
 
-  • Kappa2/Kappa2_add: Code and results for constructing pre-trained models based on Kappa2 and fine-tuning.
-
   • TargetScreening_yield_s/TargetScreening_yield_l_cl: Code and results for constructing pre-trained models based on various pre-training labels and fine-tuning. Database B was utilized for TargetScreening_yield_s as well as Database E for TargetScreening_yield_l_cl.
 
 - reactiont5_reactiont5: Code and results of ReactionT5.
