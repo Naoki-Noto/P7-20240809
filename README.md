@@ -59,7 +59,7 @@ Machine learning/
 Supporting information/
 
 - Chemical_space_B&E_ReL: Code and results for comparing chemical spaces of Databases B and E.
-- 
+  
 - MolGeneration_SI_ReL: Code for comparing molecular properties derived from policy and reward settings.
 
 - Molecule_selection_ReL: Code and results for randomly selecting 10 molecules from Databases A, B, C, and D.
