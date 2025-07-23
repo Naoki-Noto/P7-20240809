@@ -75,9 +75,19 @@ To set up the environment for using the molecular generator, please execute the 
 conda env create -n new_env -f ReL.yml
 conda activate new_env
 ```
-Next, run the `QL_e01.py`, `QL_e1.py`, or `QL_e1_01.py` script, which is located at:
+Next, run one of the following scripts based on your intended setup:  
+- `QL_e01.py`
+- `QL_e1.py`
+- `QL_e1_01.py`
+
+These scripts are located in:
 ```bash
 Database construction/
 └── MolGeneration_ReL/
-└── QL_e01.py
+├── QL_e01.py
+├── QL_e1.py
+├── QL_e1_01.py
+├── QL_env_agent_e01.py # Required file to run QL_e01.py
+├── QL_env_agent_e1.py # Required file to run QL_e1.py
+└── QL_env_agent_e1_01.py # Required file to run QL_e1_01.py
 ```
