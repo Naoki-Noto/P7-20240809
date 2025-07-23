@@ -67,8 +67,6 @@ Supporting information/
 
 - ZINC_database: Code and results when using ZINC-derived databases.
 
-===========================================================================
-
 # Setup and Usage
 
 
