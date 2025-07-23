@@ -98,26 +98,29 @@ To set up the environment for preparing pretraining labels, please execute the f
 conda env create -n new_env2 -f adapt1.yml
 conda activate new_env2
 ```
+Next, run one of the following scripts based on your intended setup:  
+- `RDKit_AI.ipynb``RDKit_AI2.ipynb``RDKit_human.ipynb``RDKit_random.ipynb` # To generate RDKit descriptor
+- `mordred_AI.ipynb``mordred_AI2.ipynb``mordred_human.ipynb``mordred_random.ipynb` # To generate Mordred descriptor
+- `summary_AI.ipynb``summary_AI2.ipynb``summary_human.ipynb``summary_random.ipynb` # To extract necessary labels, check for NaN values, and perform random sampling
 
 These scripts are located in:
 ```bash
 Database construction/
 └── Make_database_adapt1/
-├── HGB/ # The `HGB/` folder is not relevant to this operation and can be ignored.
 └── data/
-├── RDKit_AI.py
-├── RDKit_AI2.py
-├── RDKit_human.py
-├── RDKit_random.py
-├── mordred_AI.py
-├── mordred_AI2.py
-├── mordred_human.py
-├── summary_AI.py
-├── summary_AI2.py
-├── summary_human.py
-├── summary_random.py
-├── result/
-└── source/
+├── RDKit_AI.ipynb
+├── RDKit_AI2.ipynb
+├── RDKit_human.ipynb
+├── RDKit_random.ipynb
+├── mordred_AI.ipynb
+├── mordred_AI2.ipynb
+├── mordred_human.ipynb
+├── summary_AI.ipynb
+├── summary_AI2.ipynb
+├── summary_human.ipynb
+├── summary_random.ipynb
+├── result/ # This folder is used for storing the output results.
+└── source/ # This folder includes SMILES lists to use the generation of pretraining labels.
 ```
 **3. For conducting transfer learning**
 
