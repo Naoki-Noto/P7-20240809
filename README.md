@@ -132,9 +132,8 @@ conda env create -n new_env3 -f Deep2.yml
 conda activate new_env3
 ```
 Next, run one of the following scripts based on your intended setup:  
-- `RDKit_AI.ipynb`,`RDKit_AI2.ipynb`,`RDKit_human.ipynb`,`RDKit_random.ipynb` # To generate RDKit descriptor
-- `mordred_AI.ipynb`,`mordred_AI2.ipynb`,`mordred_human.ipynb`,`mordred_random.ipynb` # To generate Mordred descriptor
-- `summary_AI.ipynb`,`summary_AI2.ipynb`,`summary_human.ipynb`,`summary_random.ipynb` # To extract necessary labels, check for NaN values, and perform random sampling
+- `GCN.ipynb` # To generate RDKit descriptor
+- `FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb` # To generate Mordred descriptor
 
 These scripts are located in:
 ```bash
