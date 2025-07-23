@@ -76,9 +76,9 @@ conda env create -n new_env -f ReL.yml
 conda activate new_env
 ```
 Next, run one of the following scripts based on your intended setup:  
-- `QL_e01.py`
-- `QL_e1.py`
-- `QL_e1_01.py`
+- `QL_e01.py` # Molecular generator based on epsiron = 0.1
+- `QL_e1.py` # Molecular generator based on epsiron = 1
+- `QL_e1_01.py` # Molecular generator with epsilon annealing (from 1 to 0.1)
 
 These scripts are located in:
 ```bash
