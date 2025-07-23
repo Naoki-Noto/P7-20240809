@@ -70,7 +70,7 @@ Supporting information/
 # Setup and Usage
 **1. For using molecular generator**
 
-To set up the environment for using the molecular generator, please execute the following command using the ReL.yml file located in the Environment folder.
+To set up the environment for using the molecular generator, please execute the following command using the `ReL.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `ReL.yml` file and install the missing packages manually using `pip`.
 ```bash
 conda env create -n new_env -f ReL.yml
 conda activate new_env
@@ -91,3 +91,12 @@ Database construction/
 ├── QL_env_agent_e1.py # Required file to run QL_e1.py
 └── QL_env_agent_e1_01.py # Required file to run QL_e1_01.py
 ```
+**2. For preparing pretraining labels**
+
+To set up the environment for preparing pretraining labels, please execute the following command using the `adapt1.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `adapt1.yml` file and install the missing packages manually using `pip`.
+
+**3. For conducting transfer learning**
+
+To set up the environment for conducting transfer learning, please execute the following command using the `Deep2.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `Deep2.yml` file and install the missing packages manually using `pip`.
+
+
