@@ -1,5 +1,4 @@
 # P7-20240809
-===========================================================================
 
 Note: Databases A, B, C, D, E, and F are denoted as 'Human', 'Random', 'AI2', 'AI', 'AI2+Human', and 'AI+Random' respectively.
 
@@ -7,8 +6,6 @@ Note2: Since the pkl files were too large to upload to GitHub, they are stored a
 https://drive.google.com/drive/folders/1pUC8uVw9CC82m1UwBKBRTU9kUn5yyIWq?usp=sharing
 
 Note3: The environment used is indicated at the end of each directory name.
-
-===========================================================================
 
 # Table of Contents
 Database construction/
