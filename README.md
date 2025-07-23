@@ -109,7 +109,7 @@ These scripts are located in:
 Database construction/
 └── Make_database_adapt1/
 └── data/
-├── RDKit_AI.ipynb
+  ├── RDKit_AI.ipynb
 ├── RDKit_AI2.ipynb
 ├── RDKit_human.ipynb
 ├── RDKit_random.ipynb
