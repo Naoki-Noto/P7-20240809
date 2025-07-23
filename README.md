@@ -69,7 +69,7 @@ Supporting information/
 
 # Setup and Usage
 1. For using molecular generator
-
+To set up the environment for using the molecular generator, please execute the following command using the ReL.yml file located in the Environment folder.
 ```bash
 conda env create -n new_env -f ReL.yml
 conda activate new_env
