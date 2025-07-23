@@ -84,12 +84,12 @@ These scripts are located in:
 ```bash
 Database construction/
 └── MolGeneration_ReL/
-├── QL_e01.py
-├── QL_e1.py
-├── QL_e1_01.py
-├── QL_env_agent_e01.py # Required file to run QL_e01.py
-├── QL_env_agent_e1.py # Required file to run QL_e1.py
-└── QL_env_agent_e1_01.py # Required file to run QL_e1_01.py
+  ├── QL_e01.py
+  ├── QL_e1.py
+  ├── QL_e1_01.py
+  ├── QL_env_agent_e01.py # Required file to run QL_e01.py
+  ├── QL_env_agent_e1.py # Required file to run QL_e1.py
+  └── QL_env_agent_e1_01.py # Required file to run QL_e1_01.py
 ```
 
 **2. For preparing pretraining labels**
@@ -108,20 +108,20 @@ These scripts are located in:
 ```bash
 Database construction/
 └── Make_database_adapt1/
-└── data/
-  ├── RDKit_AI.ipynb
-├── RDKit_AI2.ipynb
-├── RDKit_human.ipynb
-├── RDKit_random.ipynb
-├── mordred_AI.ipynb
-├── mordred_AI2.ipynb
-├── mordred_human.ipynb
-├── summary_AI.ipynb
-├── summary_AI2.ipynb
-├── summary_human.ipynb
-├── summary_random.ipynb
-├── result/ # This folder is used for storing the output results.
-└── source/ # This folder includes SMILES lists to use the generation of pretraining labels.
+  └── data/
+    ├── RDKit_AI.ipynb
+    ├── RDKit_AI2.ipynb
+    ├── RDKit_human.ipynb
+    ├── RDKit_random.ipynb
+    ├── mordred_AI.ipynb
+    ├── mordred_AI2.ipynb
+    ├── mordred_human.ipynb
+    ├── summary_AI.ipynb
+    ├── summary_AI2.ipynb
+    ├── summary_human.ipynb
+    ├── summary_random.ipynb
+    ├── result/ # This folder is used for storing the output results.
+    └── source/ # This folder includes SMILES lists to use the generation of pretraining labels.
 ```
 
 **3. For conducting transfer learning**
@@ -138,26 +138,26 @@ These scripts are located in:
 ```bash
 Database construction/
 └── pkl_files_Deep2/
-├── Make_dataset_AI+AI2.ipynb
-├── Make_dataset_AI+Human.ipynb
-├── Make_dataset_AI+Random.ipynb
-├── Make_dataset_AI.ipynb
-├── Make_dataset_AI2+Human.ipynb
-├── Make_dataset_AI2+Random.ipynb
-├── Make_dataset_AI2.ipynb
-├── Make_dataset_Human.ipynb
-├── Make_dataset_Random+Human.ipynb
-├── Make_dataset_Random.ipynb
-├── data_AI+AI2/
-├── data_AI+Human/
-├── data_AI+Random/
-├── data_AI/
-├── data_AI2+Human/
-├── data_AI2+Random/
-├── data_AI2/
-├── data_Human/
-├── data_Random+Human/
-└── data_Random/
+  ├── Make_dataset_AI+AI2.ipynb
+  ├── Make_dataset_AI+Human.ipynb
+  ├── Make_dataset_AI+Random.ipynb
+  ├── Make_dataset_AI.ipynb
+  ├── Make_dataset_AI2+Human.ipynb
+  ├── Make_dataset_AI2+Random.ipynb
+  ├── Make_dataset_AI2.ipynb
+  ├── Make_dataset_Human.ipynb
+  ├── Make_dataset_Random+Human.ipynb
+  ├── Make_dataset_Random.ipynb
+  ├── data_AI+AI2/
+  ├── data_AI+Human/
+  ├── data_AI+Random/
+  ├── data_AI/
+  ├── data_AI2+Human/
+  ├── data_AI2+Random/
+  ├── data_AI2/
+  ├── data_Human/
+  ├── data_Random+Human/
+  └── data_Random/
 ```
 Next, to perform deep learning, run one of the following scripts based on your intended setup:  
 - `GCN.ipynb` # To perform supervised pretraining
@@ -167,48 +167,48 @@ These scripts are located in:
 ```bash
 Machine learning/
 └── DeepLearning_Deep2/
-├── ABCGG_add/
-├── FT_yield_CA.ipynb
-├── FT_yield_CS.ipynb
-├── GCN.ipynb
-├── data_AI+AI2/
-├── data_AI+Human/
-├── data_AI+Random/
-├── data_AI2+Human/ # This dataset is the best for pretraining.
-├── data_AI2+Random/
-├── data_Random+Human/
-├── data_real/ # This folder is used for storing the output results.
-└── result/
-├── BertzCT/
-├── FT_yield_s.ipynb
-├── GCN.ipynb
-├── data_AI/
-├── data_AI2/
-├── data_human/
-├── data_random/ # This dataset is the best for pretraining.
-├── data_real/
-└── result/ # This folder is used for storing the output results.
-├── BertzCT_add/
-├── FT_yield_l.ipynb
-├── FT_yield_cl.ipynb
-├── GCN.ipynb
-├── data_AI+AI2/
-├── data_AI+Human/
-├── data_AI+Random/
-├── data_AI2+Human/ # This dataset is the best for pretraining.
-├── data_AI2+Random/
-├── data_Random+Human/
-├── data_real/
-└── result/ # This folder is used for storing the output results.
-└── Kappa3_add/
-├── FT_yield_CN.ipynb
-├── GCN.ipynb
-├── data_AI+AI2/
-├── data_AI+Human/
-├── data_AI+Random/ # This dataset is the best for pretraining.
-├── data_AI2+Human/
-├── data_AI2+Random/
-├── data_Random+Human/
-├── data_real/
-└── result/ # This folder is used for storing the output results.
+  ├── ABCGG_add/
+    ├── FT_yield_CA.ipynb
+    ├── FT_yield_CS.ipynb
+    ├── GCN.ipynb
+    ├── data_AI+AI2/
+    ├── data_AI+Human/
+    ├── data_AI+Random/
+    ├── data_AI2+Human/ # This dataset is the best for pretraining.
+    ├── data_AI2+Random/
+    ├── data_Random+Human/
+    ├── data_real/ # This folder is used for storing the output results.
+    └── result/
+  ├── BertzCT/
+    ├── FT_yield_s.ipynb
+    ├── GCN.ipynb
+    ├── data_AI/
+    ├── data_AI2/
+    ├── data_human/
+    ├── data_random/ # This dataset is the best for pretraining.
+    ├── data_real/
+    └── result/ # This folder is used for storing the output results.
+  ├── BertzCT_add/
+    ├── FT_yield_l.ipynb
+    ├── FT_yield_cl.ipynb
+    ├── GCN.ipynb
+    ├── data_AI+AI2/
+    ├── data_AI+Human/
+    ├── data_AI+Random/
+    ├── data_AI2+Human/ # This dataset is the best for pretraining.
+    ├── data_AI2+Random/
+    ├── data_Random+Human/
+    ├── data_real/
+    └── result/ # This folder is used for storing the output results.
+  └── Kappa3_add/
+    ├── FT_yield_CN.ipynb
+    ├── GCN.ipynb
+    ├── data_AI+AI2/
+    ├── data_AI+Human/
+    ├── data_AI+Random/ # This dataset is the best for pretraining.
+    ├── data_AI2+Human/
+    ├── data_AI2+Random/
+    ├── data_Random+Human/
+    ├── data_real/
+    └── result/ # This folder is used for storing the output results.
 ```
