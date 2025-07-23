@@ -99,6 +99,26 @@ conda env create -n new_env2 -f adapt1.yml
 conda activate new_env2
 ```
 
+These scripts are located in:
+```bash
+Database construction/
+└── Make_database_adapt1/
+├── HGB/ # The `HGB/` folder is not relevant to this operation and can be ignored.
+└── data/
+├── RDKit_AI.py
+├── RDKit_AI2.py
+├── RDKit_human.py
+├── RDKit_random.py
+├── mordred_AI.py
+├── mordred_AI2.py
+├── mordred_human.py
+├── summary_AI.py
+├── summary_AI2.py
+├── summary_human.py
+├── summary_random.py
+├── result/
+└── source/
+```
 **3. For conducting transfer learning**
 
 To set up the environment for conducting transfer learning, please execute the following command using the `Deep2.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `Deep2.yml` file and install the missing packages manually using `pip`.
@@ -107,3 +127,15 @@ conda env create -n new_env3 -f Deep2.yml
 conda activate new_env3
 ```
 
+
+These scripts are located in:
+```bash
+Database construction/
+└── MolGeneration_ReL/
+├── QL_e01.py
+├── QL_e1.py
+├── QL_e1_01.py
+├── QL_env_agent_e01.py # Required file to run QL_e01.py
+├── QL_env_agent_e1.py # Required file to run QL_e1.py
+└── QL_env_agent_e1_01.py # Required file to run QL_e1_01.py
+```
