@@ -68,7 +68,7 @@ Supporting information/
 - ZINC_database: Code and results when using ZINC-derived databases.
 
 # Setup and Usage
-1. For using molecular generator
+1. For using molecular generator  
 To set up the environment for using the molecular generator, please execute the following command using the ReL.yml file located in the Environment folder.
 ```bash
 conda env create -n new_env -f ReL.yml
