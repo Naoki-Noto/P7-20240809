@@ -69,7 +69,7 @@ Supporting information/
 
 # Setup and Usage
 
-'''bash
+```bash
 conda env create -n new_env -f ReL.yml
 
 
