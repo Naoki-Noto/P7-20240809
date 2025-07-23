@@ -132,8 +132,8 @@ conda env create -n new_env3 -f Deep2.yml
 conda activate new_env3
 ```
 Next, run one of the following scripts based on your intended setup:  
-- `GCN.ipynb` # To generate RDKit descriptor
-- `FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb`,`FT_yield_CA.ipynb` # To generate Mordred descriptor
+- `GCN.ipynb` # To perform supervised pretraining
+- `FT_yield_s.ipynb`,`FT_yield_l.ipynb`,`FT_yield_cl.ipynb`,`FT_yield_CS.ipynb`,`FT_yield_CN.ipynb`,`FT_yield_CA.ipynb` # To fine-tuning for CO-a, CO-b, CO-c, CS, CN, and CA, respectively
 
 These scripts are located in:
 ```bash
@@ -146,10 +146,10 @@ Machine learning/
 ├── data_AI+AI2/
 ├── data_AI+Human/
 ├── data_AI+Random/
-├── data_AI2+Human/
+├── data_AI2+Human/ # This dataset is the best for pretraining.
 ├── data_AI2+Random/
 ├── data_Random+Human/
-├── data_real/
+├── data_real/ # This folder is used for storing the output results.
 └── result/
 ├── BertzCT/
 ├── FT_yield_s.ipynb
@@ -157,9 +157,9 @@ Machine learning/
 ├── data_AI/
 ├── data_AI2/
 ├── data_human/
-├── data_random/
+├── data_random/ # This dataset is the best for pretraining.
 ├── data_real/
-└── result/
+└── result/ # This folder is used for storing the output results.
 ├── BertzCT_add/
 ├── FT_yield_l.ipynb
 ├── FT_yield_cl.ipynb
@@ -167,20 +167,20 @@ Machine learning/
 ├── data_AI+AI2/
 ├── data_AI+Human/
 ├── data_AI+Random/
-├── data_AI2+Human/
+├── data_AI2+Human/ # This dataset is the best for pretraining.
 ├── data_AI2+Random/
 ├── data_Random+Human/
 ├── data_real/
-└── result/
+└── result/ # This folder is used for storing the output results.
 └── Kappa3_add/
 ├── FT_yield_CN.ipynb
 ├── GCN.ipynb
 ├── data_AI+AI2/
 ├── data_AI+Human/
-├── data_AI+Random/
+├── data_AI+Random/ # This dataset is the best for pretraining.
 ├── data_AI2+Human/
 ├── data_AI2+Random/
 ├── data_Random+Human/
 ├── data_real/
-└── result/
+└── result/ # This folder is used for storing the output results.
 ```
