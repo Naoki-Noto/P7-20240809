@@ -91,6 +91,7 @@ Database construction/
 ├── QL_env_agent_e1.py # Required file to run QL_e1.py
 └── QL_env_agent_e1_01.py # Required file to run QL_e1_01.py
 ```
+
 **2. For preparing pretraining labels**
 
 To set up the environment for preparing pretraining labels, please execute the following command using the `adapt1.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `adapt1.yml` file and install the missing packages manually using `pip`.
@@ -122,6 +123,7 @@ Database construction/
 ├── result/ # This folder is used for storing the output results.
 └── source/ # This folder includes SMILES lists to use the generation of pretraining labels.
 ```
+
 **3. For conducting transfer learning**
 
 To set up the environment for conducting transfer learning, please execute the following command using the `Deep2.yml` file located in the Environment folder. If some packages are not installed successfully, please refer to the `Deep2.yml` file and install the missing packages manually using `pip`.
@@ -129,16 +131,57 @@ To set up the environment for conducting transfer learning, please execute the f
 conda env create -n new_env3 -f Deep2.yml
 conda activate new_env3
 ```
-
+Next, run one of the following scripts based on your intended setup:  
+- `RDKit_AI.ipynb`,`RDKit_AI2.ipynb`,`RDKit_human.ipynb`,`RDKit_random.ipynb` # To generate RDKit descriptor
+- `mordred_AI.ipynb`,`mordred_AI2.ipynb`,`mordred_human.ipynb`,`mordred_random.ipynb` # To generate Mordred descriptor
+- `summary_AI.ipynb`,`summary_AI2.ipynb`,`summary_human.ipynb`,`summary_random.ipynb` # To extract necessary labels, check for NaN values, and perform random sampling
 
 These scripts are located in:
 ```bash
-Database construction/
-└── MolGeneration_ReL/
-├── QL_e01.py
-├── QL_e1.py
-├── QL_e1_01.py
-├── QL_env_agent_e01.py # Required file to run QL_e01.py
-├── QL_env_agent_e1.py # Required file to run QL_e1.py
-└── QL_env_agent_e1_01.py # Required file to run QL_e1_01.py
+Machine learning/
+└── DeepLearning_Deep2/
+├── ABCGG_add/
+├── FT_yield_CA.ipynb
+├── FT_yield_CS.ipynb
+├── GCN.ipynb
+├── data_AI+AI2/
+├── data_AI+Human/
+├── data_AI+Random/
+├── data_AI2+Human/
+├── data_AI2+Random/
+├── data_Random+Human/
+├── data_real/
+└── result/
+├── BertzCT/
+├── FT_yield_s.ipynb
+├── GCN.ipynb
+├── data_AI/
+├── data_AI2/
+├── data_human/
+├── data_random/
+├── data_real/
+└── result/
+├── BertzCT_add/
+├── FT_yield_l.ipynb
+├── FT_yield_cl.ipynb
+├── GCN.ipynb
+├── data_AI+AI2/
+├── data_AI+Human/
+├── data_AI+Random/
+├── data_AI2+Human/
+├── data_AI2+Random/
+├── data_Random+Human/
+├── data_real/
+└── result/
+└── Kappa3_add/
+├── FT_yield_CN.ipynb
+├── GCN.ipynb
+├── data_AI+AI2/
+├── data_AI+Human/
+├── data_AI+Random/
+├── data_AI2+Human/
+├── data_AI2+Random/
+├── data_Random+Human/
+├── data_real/
+└── result/
 ```
