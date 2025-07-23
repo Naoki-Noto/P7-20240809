@@ -136,7 +136,28 @@ Next, to make pkl files, run one of the following scripts based on your intended
 
 These scripts are located in:
 ```bash
-
+Database construction/
+└── pkl_files_Deep2/
+├── Make_dataset_AI+AI2.ipynb
+├── Make_dataset_AI+Human.ipynb
+├── Make_dataset_AI+Random.ipynb
+├── Make_dataset_AI.ipynb
+├── Make_dataset_AI2+Human.ipynb
+├── Make_dataset_AI2+Random.ipynb
+├── Make_dataset_AI2.ipynb
+├── Make_dataset_Human.ipynb
+├── Make_dataset_Random+Human.ipynb
+├── Make_dataset_Random.ipynb
+├── data_AI+AI2/
+├── data_AI+Human/
+├── data_AI+Random/
+├── data_AI/
+├── data_AI2+Human/
+├── data_AI2+Random/
+├── data_AI2/
+├── data_Human/
+├── data_Random+Human/
+└── data_Random/
 ```
 Next, to perform deep learning, run one of the following scripts based on your intended setup:  
 - `GCN.ipynb` # To perform supervised pretraining
