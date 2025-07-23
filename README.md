@@ -74,5 +74,5 @@ To set up the environment for using the molecular generator, please execute the 
 conda env create -n new_env -f ReL.yml
 conda activate new_env
 
-
+Next
 
