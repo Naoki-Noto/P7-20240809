@@ -131,10 +131,17 @@ To set up the environment for conducting transfer learning, please execute the f
 conda env create -n new_env3 -f Deep2.yml
 conda activate new_env3
 ```
-Next, run one of the following scripts based on your intended setup:  
-- `GCN.ipynb` # To perform supervised pretraining
-- `FT_yield_s.ipynb`,`FT_yield_l.ipynb`,`FT_yield_cl.ipynb`,`FT_yield_CS.ipynb`,`FT_yield_CN.ipynb`,`FT_yield_CA.ipynb` # To fine-tuning for CO-a, CO-b, CO-c, CS, CN, and CA, respectively
+Next, to make pkl files, run one of the following scripts based on your intended setup: 
+- `Make_dataset_AI+AI2.ipynb`,`Make_dataset_AI+Human.ipynb`,`Make_dataset_AI+Random.ipynb`,`Make_dataset_AI.ipynb`,`Make_dataset_AI2+Human.ipynb`,`Make_dataset_AI2+Random.ipynb`,`Make_dataset_AI2.ipynb`,`Make_dataset_Human.ipynb`,`Make_dataset_Random+Human.ipynb`,`Make_dataset_Random.ipynb`, # To make pkl files
 
+These scripts are located in:
+```bash
+
+```
+Next, to perform deep learning, run one of the following scripts based on your intended setup:  
+- `GCN.ipynb` # To perform supervised pretraining
+- `FT_yield_s.ipynb`,`FT_yield_l.ipynb`,`FT_yield_cl.ipynb`,`FT_yield_CS.ipynb`,`FT_yield_CN.ipynb`,`FT_yield_CA.ipynb` # To perform fine-tuning for CO-a, CO-b, CO-c, CS, CN, and CA, respectively
+  
 These scripts are located in:
 ```bash
 Machine learning/
