@@ -68,9 +68,11 @@ Supporting information/
 - ZINC_database: Code and results when using ZINC-derived databases.
 
 # Setup and Usage
+1. For using molecular generator
 
 ```bash
 conda env create -n new_env -f ReL.yml
+conda activate new_env
 
 
 
