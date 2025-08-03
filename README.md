@@ -168,38 +168,38 @@ These scripts are located in:
 Machine learning/
 └── DeepLearning_Deep2/
   ├── ABCGG_add/
-    ├── FT_yield_CA.ipynb
-    ├── FT_yield_CS.ipynb
-    ├── GCN.ipynb
-    ├── data_AI+AI2/
-    ├── data_AI+Human/
-    ├── data_AI+Random/
-    ├── data_AI2+Human/ # This dataset is the best for pretraining.
-    ├── data_AI2+Random/
-    ├── data_Random+Human/
-    ├── data_real/ # This folder is used for storing the output results.
-    └── result/
+  │ ├── FT_yield_CA.ipynb
+  │ ├── FT_yield_CS.ipynb
+  │ ├── GCN.ipynb
+  │ ├── data_AI+AI2/
+  │ ├── data_AI+Human/
+  │ ├── data_AI+Random/
+  │ ├── data_AI2+Human/ # This dataset is the best for pretraining.
+  │ ├── data_AI2+Random/
+  │ ├── data_Random+Human/
+  │ ├── data_real/ # This folder is used for storing the output results.
+  │ └── result/
   ├── BertzCT/
-    ├── FT_yield_s.ipynb
-    ├── GCN.ipynb
-    ├── data_AI/
-    ├── data_AI2/
-    ├── data_human/
-    ├── data_random/ # This dataset is the best for pretraining.
-    ├── data_real/
-    └── result/ # This folder is used for storing the output results.
+  │ ├── FT_yield_s.ipynb
+  │ ├── GCN.ipynb
+  │ ├── data_AI/
+  │ ├── data_AI2/
+  │ ├── data_human/
+  │ ├── data_random/ # This dataset is the best for pretraining.
+  │ ├── data_real/
+  │ └── result/ # This folder is used for storing the output results.
   ├── BertzCT_add/
-    ├── FT_yield_l.ipynb
-    ├── FT_yield_cl.ipynb
-    ├── GCN.ipynb
-    ├── data_AI+AI2/
-    ├── data_AI+Human/
-    ├── data_AI+Random/
-    ├── data_AI2+Human/ # This dataset is the best for pretraining.
-    ├── data_AI2+Random/
-    ├── data_Random+Human/
-    ├── data_real/
-    └── result/ # This folder is used for storing the output results.
+  │ ├── FT_yield_l.ipynb
+  │ ├── FT_yield_cl.ipynb
+  │ ├── GCN.ipynb
+  │ ├── data_AI+AI2/
+  │ ├── data_AI+Human/
+  │ ├── data_AI+Random/
+  │ ├── data_AI2+Human/ # This dataset is the best for pretraining.
+  │ ├── data_AI2+Random/
+  │ ├── data_Random+Human/
+  │ ├── data_real/
+  │ └── result/ # This folder is used for storing the output results.
   └── Kappa3_add/
     ├── FT_yield_CN.ipynb
     ├── GCN.ipynb
