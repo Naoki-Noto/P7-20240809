@@ -7,6 +7,16 @@ https://drive.google.com/drive/folders/1pUC8uVw9CC82m1UwBKBRTU9kUn5yyIWq?usp=sha
 
 Note3: The environment used is indicated at the end of each directory name.
 
+# Citation Information
+
+title={Transfer learning from custom-tailored virtual molecular databases to real-world organic photosensitizers for catalytic activity prediction}
+
+author={Naoki Noto, Taiki Nagano, Mikito Fujinami, Ryosuke Kojima, Susumu Saito }
+
+journal info={Commun. Chem. 2025, 8, Article number: 288.}
+
+DOI: https://doi.org/10.1038/s42004-025-01678-w
+
 # Table of Contents
 Database construction/
 
